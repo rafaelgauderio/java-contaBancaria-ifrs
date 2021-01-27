@@ -111,7 +111,7 @@ public class Pessoa {
 
 	@Override
 	public String toString() {
-		return "Cliente [nome=" + nome + ", endereco=" + endereco + ", cidade=" + cidade + ", bairro=" + bairro
+		return "[nome=" + nome + ", endereco=" + endereco + ", cidade=" + cidade + ", bairro=" + bairro
 				+ ", estado=" + estado + "\nfone=" + fone + ", email=" + email + ", CPF=" + CPF + ", RG=" + RG + "]";
 
 	}

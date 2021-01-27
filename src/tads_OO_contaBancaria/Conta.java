@@ -72,7 +72,7 @@ public class Conta {
 	
 	@Override
 	public String toString() {
-		return "Conta [Titular= " + titular + "\n[numero=" + numero + ", digito=" + digito + ", saldo= R$ " + String.format("%.2f", saldo)+ "]";
+		return "[Titular= " + titular + "\nDados da Conta Bancária [numero=" + numero + ", digito=" + digito + ", saldo= R$ " + String.format("%.2f", saldo)+ "]";
 	}
 
 }
